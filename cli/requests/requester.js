@@ -1,4 +1,4 @@
-const tor = require("tor-request");
+const tor = require('tor-request');
 const Promise = require('bluebird');
 const requestFormatter = require('./format');
 const requestValidator = require('./validate');
