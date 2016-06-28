@@ -4,6 +4,6 @@ const Map = require('immutable').Map;
 
 exports.generateSkeleton = (userinfo = {}, conversation = [],
   order = [], sale = [], notification = []) => {
-  return Map({ userinfo, conversation, order, sale, notification }).toJSON();
+  return JSON.stringify(Map({ userinfo, conversation, order, sale, notification }).toJS());
 };
 
