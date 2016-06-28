@@ -1,0 +1,25 @@
+{
+  "name": "ab-easy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.30.0",
+    "immutable": "^3.8.1",
+    "inquirer": "^1.1.0",
+    "openpgp": "^2.3.2",
+    "tor-request": "^1.0.5",
+    "url": "^0.11.0",
+    "xml2js": "^0.4.16"
+  },
+  "bin": {
+    "abcli": "./abcli.js"
+  }
+}

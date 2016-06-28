@@ -1,0 +1,99 @@
+{
+  "userinfo": {},
+  "conversations": {
+    "terms": {
+      "type": "string",
+      "min": null,
+      "max": null,
+      "default": null,
+      "required": false
+    },
+    "start": {
+      "type": "number",
+      "min": "0",
+      "max": null,
+      "default": "0",
+      "required": false
+    },
+    "count": {
+      "type": "number",
+      "min": "1",
+      "max": "100",
+      "default": "10",
+      "required": false
+    }
+  },
+  "messages": {
+    "id": {
+      "param": "id",
+      "type": "string",
+      "required": true
+    }
+  },
+  "sendmessage": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "orders": {
+    "start": {
+      "type": "number",
+      "required": false,
+      "default": "0"
+    },
+    "count": {
+      "type": "number",
+      "max": "100",
+      "min": "0",
+      "default": "10",
+      "required": false
+    }
+  },
+  "sales": {
+    "start": {
+      "type": "number",
+      "required": false,
+      "default": "0"
+    },
+    "count": {
+      "type": "number",
+      "max": "100",
+      "min": "0",
+      "default": "10",
+      "required": false
+    }
+  },
+  "withdraw": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "pin": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "notifications": {
+    "start": {
+      "type": "number",
+      "required": false,
+      "default": "0"
+    },
+    "count": {
+      "type": "number",
+      "max": "100",
+      "min": "0",
+      "default": "10",
+      "required": false
+    }
+  }
+}
